@@ -4,9 +4,9 @@ class GamesController < ApplicationController
     10.times do
       @letters << ('a'..'z').to_a.sample
     end
-
   end
 
   def score
+    @result = [:name]
   end
 end
